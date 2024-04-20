@@ -515,7 +515,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   sakana.style.zIndex = "1";
                   sakana.style.position = "fixed";
                   document.body.insertAdjacentElement("beforeend", sakana);
-                  new SakanaWidget({ character: 'mizuno' }).mount(sakana);
+                  new SakanaWidget({ character: 'SilverWolf' }).mount(sakana);
                 }
                 </script>
                 <script

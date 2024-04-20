@@ -506,15 +506,17 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 />
                 <script>
                 function initSakanaWidget() {
+                  /*
                   const SilverWolf = SakanaWidget.getCharacter('takina');
                   SilverWolf.image = `https://github.com/Hoyxl/Hoyxl.github.io/blob/master/img/SilverWolf.png?raw=true`;
                   SakanaWidget.registerCharacter('SilverWolf', SilverWolf);
 
                   const MarchSeventh = SakanaWidget.getCharacter('takina');
-                  const Sparker = SakanaWidget.getCharacter('takina');
                   MarchSeventh.image = `https://github.com/Hoyxl/Hoyxl.github.io/blob/master/img/MarchSeventh.png?raw=true`;
-                  Sparker.image = `https://github.com/Hoyxl/Hoyxl.github.io/blob/master/img/Sparker.png?raw=true`;
                   SakanaWidget.registerCharacter('MarchSeventh', MarchSeventh);
+                  */
+                  const Sparker = SakanaWidget.getCharacter('takina');
+                  Sparker.image = `https://github.com/Hoyxl/Hoyxl.github.io/blob/master/img/Sparker.png?raw=true`;
                   SakanaWidget.registerCharacter('Sparker', Sparker);
 
                   let sakana = document.createElement("div");
@@ -523,8 +525,9 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   sakana.style.zIndex = "1";
                   sakana.style.position = "fixed";
                   document.body.insertAdjacentElement("beforeend", sakana);
-                  new SakanaWidget({ character: 'SilverWolf' }).mount(sakana);
-                  new SakanaWidget({ character: 'MarchSeventh' }).mount(sakana);
+                  
+                  // new SakanaWidget({ character: 'SilverWolf' }).mount(sakana);
+                  // new SakanaWidget({ character: 'MarchSeventh' }).mount(sakana);
                   new SakanaWidget({ character: 'Sparker' }).mount(sakana);
                 }
                 </script>

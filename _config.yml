@@ -506,7 +506,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 />
                 <script>
                 function initSakanaWidget() {
-
                   SilverWolf.image = `https://github.com/Hoyxl/Hoyxl.github.io/blob/master/img/SilverWolf.png?raw=true`;
                   SakanaWidget.registerCharacter('SilverWolf', SilverWolf);
                   let sakana = document.createElement("div");

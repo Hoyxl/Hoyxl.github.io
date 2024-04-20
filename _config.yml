@@ -24,7 +24,9 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
     <i class="fa-brands fa-orcid"></i>
   </a>
   <br/>
-  我知这世界如露水般短暂 然而 然而。
+  我知这世界如露水般短暂
+  <br/>
+  然而  然而 ...
   <br/>
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 
@@ -223,7 +225,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               </script>
             - | # 自定义主题色（水野爱蓝），可对应 <https://www.runoob.com/cssref/css-colornames.html> 挑选
               <style>
-                .theme-base-07 {
+                .theme-base-0d {
                   --theme-base-color: DarkSlateBlue;
                 }
               </style>
@@ -551,7 +553,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
           append_to_head:
             - | # 需要配置的变量见<https://merger.justhx.com/cn/docs/configure>
               <script>
-                var myname = "WuK";
+                var myname = "Yixin";
                 var profile = "i@wu-kan.cn";
                 var usage = "payment";
                 var wechat = "wxp://f2f0BhUoIC_9gex7-tC2PRvVuoA486mK5WyC";

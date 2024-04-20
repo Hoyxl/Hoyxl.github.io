@@ -1,32 +1,33 @@
 title: wu-kan # 站点标题
 description: | # 头像背后的信息（html格式），<br/>代表换行
-  <a href="mailto:site@wu-kan.cn">
+  <a href="mailto:heylloxin@gmail.com">
     <i class="fa-solid fa-envelope"></i>
   </a>
-  <a href="https://github.com/wu-kan">
+  <a href="https://github.com/Hoyxl">
     <i class="fa-brands fa-github"></i>
   </a>
-  <a href="https://scholar.google.com/citations?user=aU9P37UAAAAJ">
-    <i class="fa-brands fa-google-scholar"></i>
-  </a>
-  <a href="https://orcid.org/0009-0008-5828-847X">
+  # <a href="https://scholar.google.com/citations?user=aU9P37UAAAAJ">
+  #   <i class="fa-brands fa-google-scholar"></i>
+  # </a>
+  <a href="https://orcid.org/0009-0008-8972-342X">
     <i class="fa-brands fa-orcid"></i>
   </a>
-  <a href="https://vjudge.net/user/WuK">
-    <i class="fa-solid fa-smile"></i>
-  </a>
-  <a href="https://space.bilibili.com/166390020">
-    <i class="fa-brands fa-bilibili"></i>
-  </a>
-  <a href="https://www.zhihu.com/people/wukan0621">
-    <i class="fa-brands fa-zhihu"></i>
-  </a>
+  # <a href="https://vjudge.net/user/WuK">
+  #   <i class="fa-solid fa-smile"></i>
+  # </a>
+  # <a href="https://space.bilibili.com/166390020">
+  #   <i class="fa-brands fa-bilibili"></i>
+  # </a>
+  # <a href="https://www.zhihu.com/people/wukan0621">
+  #   <i class="fa-brands fa-zhihu"></i>
+  # </a>
   <br/>
-  水野爱、佐贺偶像是传奇、吹响吧！上低音号、Bon Jovi、FGO、以及我的黑柴犬吴豆豆
+  “
   <br/>
-  「奏でろ 荒ぶる魂」
+  我知这世界如露水般短暂，然而，然而。
   <br/>
-  “我的灵魂奏出绝响”
+  ”
+  <br/>
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 
 defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/front-matter-defaults/>功能进行配置
@@ -46,7 +47,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             ></script>
         default:
           body:
-            theme-base: theme-base-07 # 可选的主题色包括08~0f，见 <https://github.com/poole/lanyon>
+            theme-base: theme-base-0d # 可选的主题色包括08~0f，见 <https://github.com/poole/lanyon>
             layout-reverse: true # 开启后sidebar在右边，反之左边
             sidebar-overlay: true # 开启后正文不随sidebar移动而移动
           html_lang: zh # <https://www.w3school.com.cn/tags/html_ref_language_codes.asp>
